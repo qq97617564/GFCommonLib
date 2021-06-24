@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-//#import <AFNetworking.h>
 #import "GFCommonManager.h"
 #import "kbackModel.h"
 typedef void (^SuccessBlock)(NSDictionary *data);
