@@ -1,0 +1,6 @@
+framework module GFCommonLib {
+  umbrella header "GFCommonLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GFCommonLib (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GFCommonLib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  GFCommonLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GFCommonLib: 84050e195c3f3e8b632f8bb27099ab8dad38c6fc
+
+PODFILE CHECKSUM: b1d892bf69bca737a4355fd320d250ab191f6afe
+
+COCOAPODS: 1.10.1

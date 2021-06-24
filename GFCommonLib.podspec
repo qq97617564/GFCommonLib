@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GFCommonLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GFCommonLib.'
+  s.summary          = 'GFCommonLib.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/597617564@qq.com/GFCommonLib'
+  s.homepage         = 'https://github.com/qq97617564/GFCommonLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '597617564@qq.com' => '597617564@qq.com' }
-  s.source           = { :git => 'https://github.com/597617564@qq.com/GFCommonLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/qq97617564/GFCommonLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
