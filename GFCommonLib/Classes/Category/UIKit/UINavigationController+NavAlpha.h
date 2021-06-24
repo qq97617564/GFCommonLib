@@ -15,16 +15,16 @@
 
 @interface UIViewController (NavAlpha)
 
-//// navAlpha
-//@property (nonatomic, assign) CGFloat navAlpha;
-//
-//// navbackgroundColor
-//@property (null_resettable, nonatomic, strong) UIColor *navBarTintColor;
-//
-//// tintColor
-//@property (null_resettable, nonatomic, strong) UIColor *navTintColor;
-//
-//// titleColor
-//@property (null_resettable, nonatomic, strong) UIColor *navTitleColor;
+// navAlpha
+@property (nonatomic, assign) CGFloat navAlpha;
+
+// navbackgroundColor
+@property (null_resettable, nonatomic, strong) UIColor *navBarTintColor;
+
+// tintColor
+@property (null_resettable, nonatomic, strong) UIColor *navTintColor;
+
+// titleColor
+@property (null_resettable, nonatomic, strong) UIColor *navTitleColor;
 
 @end

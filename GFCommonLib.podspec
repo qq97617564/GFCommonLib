@@ -1,27 +1,31 @@
 
 Pod::Spec.new do |spec|
 
-
   spec.name         = "GFCommonLib"
+
   spec.version      = "0.0.1"
+
   spec.summary      = "A short description of GFCommonLib."
- 
-  spec.description  = <<-DESC
-                   DESC
+
 
   spec.homepage     = "https://github.com/qq97617564/GFCommonLib"
   
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   
 
-  spec.author             = { "王刚锋" => "597617564@qq.com" }
+  spec.author             = { "WGF" => "597617564@qq.com" }
 
+  spec.framework     = 'Foundation','UIKit','MediaPlayer','AVFoundation'
+  spec.source        = { :git => "https://github.com/qq97617564/GFCommonLib.git", :tag => "#{spec.version}" }
+  
+  spec.dependency    'Masonry'
+  
+  spec.requires_arc  = true
 
-  spec.source       = { :git => "https://github.com/qq97617564/GFCommonLib.git", :tag => "#{spec.version}" }
+  spec.platform      = :ios, '9.0'
 
+  spec.source_files  = "GFCommonLib/*/*.{h,m}","GFCommonLib/*/*/*.{h,m}"
 
-  spec.source_files  = "GFCommonLib.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
 
   
 

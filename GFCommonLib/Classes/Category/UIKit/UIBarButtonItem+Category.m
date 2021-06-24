@@ -9,7 +9,7 @@
 #import "UIBarButtonItem+Category.h"
 #import <objc/runtime.h>
 #import "UIButton+Awesome.h"
-
+#import "GFCommonManager.h"
 @interface UIBarButtonItem ()
 @property (nonatomic) BarButtonItemBlock barButtonItemBlock;
 @end

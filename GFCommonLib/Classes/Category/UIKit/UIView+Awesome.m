@@ -8,6 +8,8 @@
 
 #import "UIView+Awesome.h"
 
+#import "GFCommonManager.h"
+
 @implementation UIView (Awesome)
 - (void)setX:(CGFloat)x {
     CGRect frame = self.frame;

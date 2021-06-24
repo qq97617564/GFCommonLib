@@ -7,7 +7,7 @@
 //
 
 #import "UIViewController+Awesome.h"
-
+#import <objc/runtime.h>
 #import <AssetsLibrary/ALAssetsLibrary.h>
 
 static  BOOL canEdit = NO;

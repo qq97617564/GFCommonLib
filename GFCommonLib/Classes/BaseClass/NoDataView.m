@@ -7,6 +7,7 @@
 //
 
 #import "NoDataView.h"
+#import "GFCommonManager.h"
 @interface NoDataView()
 @property(nonatomic, strong)UIImageView *imageV;
 @end
