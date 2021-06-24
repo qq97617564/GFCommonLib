@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
 
   spec.author       = { "WGF" => "597617564@qq.com" }
 
-  spec.framework     = 'Foundation','UIKit','MediaPlayer','AVFoundation','objc/runtime'
+  spec.framework     = 'Foundation','UIKit','MediaPlayer','AVFoundation'
 
   spec.source        = { :git => "https://github.com/qq97617564/GFCommonLib.git", :tag => "#{spec.version}" }
   
@@ -30,6 +30,8 @@ Pod::Spec.new do |spec|
   spec.dependency    'MBProgressHUD'
   
   spec.requires_arc  = true
+
+  spec.prefix_header_contents = '#import <objc/runtime.h>','#import "GFCommonManager.h"'
 
   spec.platform      = :ios, '9.0'
 

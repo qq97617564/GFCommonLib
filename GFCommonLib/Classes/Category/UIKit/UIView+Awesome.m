@@ -217,7 +217,7 @@
     
     UIView *view = [[self alloc]init];
     //    CGFloat rgb = 193.0 / 255.0;
-    view.backgroundColor = [UIColor colorWithHexString:@"CCCCCC"];
+//    view.backgroundColor = [UIColor colorWithHexString:@"CCCCCC"];
     return view;
 }
 
