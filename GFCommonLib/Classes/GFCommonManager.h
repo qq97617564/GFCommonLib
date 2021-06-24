@@ -15,6 +15,6 @@
 #import "Const.h"
 #import "APIDefinition.h"
 #import "ToolsHeader.h"
-#import <objc/runtime.h>
+
 
 #endif /* GFCommonManager_h */

@@ -13,20 +13,28 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   
 
-  spec.author             = { "WGF" => "597617564@qq.com" }
+  spec.author       = { "WGF" => "597617564@qq.com" }
 
-  spec.framework     = 'Foundation','UIKit','MediaPlayer','AVFoundation'
+  spec.framework     = 'Foundation','UIKit','MediaPlayer','AVFoundation','objc/runtime'
+
   spec.source        = { :git => "https://github.com/qq97617564/GFCommonLib.git", :tag => "#{spec.version}" }
   
   spec.dependency    'Masonry'
+
+  spec.dependency    'AFNetworking'
+
+  spec.dependency    'SDWebImage'
+
+  spec.dependency    'MJExtension'
+
+  spec.dependency    'MBProgressHUD'
   
   spec.requires_arc  = true
 
   spec.platform      = :ios, '9.0'
 
-  spec.source_files  = "GFCommonLib/*/*.{h,m}","GFCommonLib/*/*/*.{h,m}"
+  spec.source_files  = "GFCommonLib/*.{h,m}","GFCommonLib/**/*.{h,m}","GFCommonLib/Classes/**/*.{h,m}"
 
 
-  
 
 end

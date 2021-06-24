@@ -9,6 +9,7 @@
 #import "UIView+Awesome.h"
 
 #import "GFCommonManager.h"
+#import <objc/runtime.h>
 
 @implementation UIView (Awesome)
 - (void)setX:(CGFloat)x {
