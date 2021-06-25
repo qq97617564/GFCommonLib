@@ -1,22 +1,47 @@
 {
   "name": "GFCommonLib",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of GFCommonLib.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/597617564@qq.com/GFCommonLib",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "homepage": "https://github.com/qq97617564/GFCommonLib",
+  "license": "MIT",
   "authors": {
-    "597617564@qq.com": "597617564@qq.com"
+    "WGF": "597617564@qq.com"
   },
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "MediaPlayer",
+    "AVFoundation"
+  ],
   "source": {
-    "git": "https://github.com/597617564@qq.com/GFCommonLib.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/qq97617564/GFCommonLib.git",
+    "tag": "0.0.1"
   },
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "MJExtension": [
+
+    ],
+    "MBProgressHUD": [
+
+    ]
+  },
+  "requires_arc": true,
+  "prefix_header_contents": [
+    "#import <objc/runtime.h>",
+    "#import \"GFCommonManager.h\""
+  ],
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "GFCommonLib/Classes/**/*"
+  "source_files": [
+    "GFCommonLib/*.{h,m}",
+    "GFCommonLib/**/*.{h,m}",
+    "GFCommonLib/Classes/**/*.{h,m}"
+  ]
 }

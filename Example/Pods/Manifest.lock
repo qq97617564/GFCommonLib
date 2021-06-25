@@ -4,7 +4,17 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - GFCommonLib (0.1.0)
+  - GFCommonLib (0.0.1):
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - SDWebImage
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJExtension (3.3.0)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -13,6 +23,10 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - SDWebImage
 
 EXTERNAL SOURCES:
   GFCommonLib:
@@ -20,7 +34,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  GFCommonLib: 84050e195c3f3e8b632f8bb27099ab8dad38c6fc
+  GFCommonLib: 0c37b79c768d4df9bd6e74bd74d2bd6e4cb4bf15
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJExtension: 01704cca2b60a214c10761b6491eab74069d68a9
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
 
 PODFILE CHECKSUM: b1d892bf69bca737a4355fd320d250ab191f6afe
 

@@ -21,8 +21,6 @@ Pod::Spec.new do |spec|
   
   spec.dependency    'Masonry'
 
-  spec.dependency    'AFNetworking'
-
   spec.dependency    'SDWebImage'
 
   spec.dependency    'MJExtension'

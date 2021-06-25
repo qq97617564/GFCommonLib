@@ -10,3 +10,5 @@
 #endif
 #endif
 
+#import <objc/runtime.h>
+#import "GFCommonManager.h"
