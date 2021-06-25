@@ -78,7 +78,6 @@
 #import "WMPlayer.h"
 #import "ConverUtil.h"
 #import "GFCountDownTool.h"
-#import "HTTPTool.h"
 #import "JYUtils.h"
 #import "MBProgressHUD+GF.h"
 #import "ToolsHeader.h"

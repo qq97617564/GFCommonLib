@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
 
   spec.source        = { :git => "https://github.com/qq97617564/GFCommonLib.git", :tag => "#{spec.version}" }
 
-  spec.xcconfig = {"HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/objc/runtime" }
+  spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/CommonCrypto" }
   
   spec.dependency    'Masonry'
 
@@ -28,12 +28,10 @@ Pod::Spec.new do |spec|
   spec.dependency    'MJExtension'
 
   spec.dependency    'MBProgressHUD'
-
-  spec.dependency    'AFNetworking'
   
   spec.requires_arc  = true
 
-  spec.prefix_header_contents = '#import "GFCommonManager.h"'
+  spec.prefix_header_contents = '#import <objc/runtime.h>','#import "GFCommonManager.h"'
 
   spec.platform      = :ios, '9.0'
 

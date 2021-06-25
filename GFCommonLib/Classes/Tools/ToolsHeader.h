@@ -11,7 +11,6 @@
 
 #import "ConverUtil.h"
 #import "GFCountDownTool.h"
-#import "HTTPTool.h"
 #import "JYUtils.h"
 #import "UIAlertTool.h"
 #import "MBProgressHUD+GF.h"
