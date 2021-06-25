@@ -66,7 +66,7 @@
 		BA5B2F3D68291D66FA00999D /* Pods-GFCommonLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFCommonLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-GFCommonLib_Tests/Pods-GFCommonLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C07814CEF2AFE9FF36757B02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D17D17FEE889F856B0F958E1 /* Pods-GFCommonLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFCommonLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GFCommonLib_Tests/Pods-GFCommonLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F0229F7DF864BAD5E788FC4B /* GFCommonLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GFCommonLib.podspec; path = ../GFCommonLib.podspec; sourceTree = "<group>"; };
+		F0229F7DF864BAD5E788FC4B /* GFCommonLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GFCommonLib.podspec; path = ../GFCommonLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
